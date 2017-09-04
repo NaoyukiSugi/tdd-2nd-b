@@ -47,4 +47,11 @@ public class Kadai2_3Test extends TestCase{
 		assertTrue(kadai.checkD5("e"));
 		assertFalse(kadai.checkD5(""));
 	}
+
+	public void testA1(){
+		assertTrue(kadai.checkA1("hoge@example.com"));
+		assertFalse(kadai.checkA1("hogeexample.com"));
+		assertFalse(kadai.checkA1("hoge@@example.com"));
+	}
+
 }

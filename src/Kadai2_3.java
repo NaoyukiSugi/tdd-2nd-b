@@ -15,9 +15,11 @@ public class Kadai2_3 {
     	
     	String local;
     	String domain;
+    	String address;
     	
     	while(strStdIn != null){
     		String[] tmp = strStdIn.split("@", 0);
+    		address = strStdIn;
     		local = tmp[0];
     		domain = tmp[1];
     		
@@ -93,6 +95,24 @@ public class Kadai2_3 {
 		if(domain.length()>0){
 			return true;
 		}else{
+			return false;
+		}
+	}
+
+	public boolean checkA1(String address){
+		String pattern = "[@]";
+		Pattern p = Pattern.compile(pattern);
+		int count = 0;
+
+		for(int i=0; i<address.length(); i++){
+			if(p.matcher(String.valueOf(address.charAt(i))).find()){
+				count++;
+			}else{
+			}
+		}
+		if(count == 1){
+			return true;
+		}else {
 			return false;
 		}
 	}
