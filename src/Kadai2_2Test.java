@@ -1,6 +1,7 @@
 import junit.framework.TestCase;
 
 import java.io.*;
+import org.junit.Test;
 import java.util.Map;
 
 public class Kadai2_2Test extends TestCase {
@@ -36,19 +37,29 @@ public class Kadai2_2Test extends TestCase {
     	.append("250").append(System.lineSeparator())
     	.append("100").append(System.lineSeparator())
     	.append("1.5").append(System.lineSeparator());
+
         ByteArrayInputStream stream = new ByteArrayInputStream(sb.toString().getBytes());
+
+
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(out));
+//        kadai.printResult();
+        kadai.fileInput(stream, out);
+
+        assertEquals("314" + System.lineSeparator() + "196350"
+                + System.lineSeparator() + "31416" + System.lineSeparator()
+                + "7" + System.lineSeparator(), out.toString());
+
+
+
+
 
         //String s = kadai.fileInput();
 
     }
 
     public void testOutput()throws IOException {
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(out));
-        kadai.printResult();
-        assertEquals("314" + System.lineSeparator() + "196350"
-                + System.lineSeparator() + "31416" + System.lineSeparator()
-                + "7" + System.lineSeparator(), out.toString());
+
     }
 
 }
