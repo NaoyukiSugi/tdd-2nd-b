@@ -79,4 +79,19 @@ public class Kadai2_3Test extends TestCase{
 		assertFalse(kadai.checkLD5(""));
 	}
 
+	public void testLQ1(){
+		assertTrue(kadai.checkLQ1("\"abc"));
+		assertFalse(kadai.checkLQ1("abc"));
+	}
+
+	public void testLQ2(){
+		assertTrue(kadai.checkLQ2("abc\""));
+		assertFalse(kadai.checkLQ2("abc"));
+	}
+
+	public void testLQ3(){
+		assertTrue(kadai.checkLD3("\"abc#\""));
+		assertFalse(kadai.checkLD3("abcД[.com"));
+	}
+
 }
