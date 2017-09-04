@@ -49,6 +49,17 @@ public class Kadai2_3 {
 		return flag;
 	}
 	
+	public boolean checkD2(String domain){
+		String pattern = "[.]";
+		Pattern p = Pattern.compile(pattern);
+		
+		if(p.matcher(String.valueOf(domain.charAt(0))).find()){
+			return false;
+		}else{
+			return true;
+		}
+	}
+	
 	public static void main(String[] args){
 		Kadai2_3 kadai = new Kadai2_3();
         try{

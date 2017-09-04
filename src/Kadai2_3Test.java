@@ -26,7 +26,10 @@ public class Kadai2_3Test extends TestCase{
         kadai.checkAddress(stream, out);
         assertEquals("ok" + System.lineSeparator()
         + "ng" + System.lineSeparator(), out.toString());*/
-
-
+	}
+	
+	public void testD2(){
+		assertTrue(kadai.checkD2("example.com"));
+		assertFalse(kadai.checkD2(".example.com"));
 	}
 }
