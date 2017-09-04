@@ -29,10 +29,16 @@ public class Kadai2_2Test extends TestCase {
 //        }
 //    }
 
-    public void testInput() {
-//        ByteArrayInputStream in = new ByteArrayInputStream("10\n250\n100\n1.5".getBytes());
-//        Map<String, String> result = kadai.re
+    public void testInput() throws FileNotFoundException, IOException {
+        //ByteArrayInputStream in = new ByteArrayInputStream("10\n250\n100\n1.5".getBytes());
+    	StringBuffer sb = new StringBuffer();
+    	sb.append("10").append(System.lineSeparator())
+    	.append("250").append(System.lineSeparator())
+    	.append("100").append(System.lineSeparator())
+    	.append("1.5").append(System.lineSeparator());
+        ByteArrayInputStream stream = new ByteArrayInputStream(sb.toString().getBytes());
 
+        //String s = kadai.fileInput();
 
     }
 

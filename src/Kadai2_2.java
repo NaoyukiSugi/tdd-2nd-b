@@ -1,12 +1,19 @@
 import java.io.*;
 
 public class Kadai2_2 {
-    BufferedReader br;
+    BufferedReader in;
 
     public void fileInput() throws FileNotFoundException, IOException {
-        File file = new File("radius.list");
-        FileReader fileReader = new FileReader(file);
-        br = new BufferedReader(fileReader);
+    	
+        //File file = new File("radius.list");
+        //FileReader fileReader = new FileReader(file);
+        //br = new BufferedReader(fileReader);
+    	in= new BufferedReader(new InputStreamReader(System.in));
+    	String strStdIn = in.readLine();
+        while(strStdIn!=null){ //EOFまで処理継続
+            System.out.println(strStdIn);
+            strStdIn = in.readLine();
+        }
     }
 
     public int calc_area(double val) {
@@ -17,7 +24,7 @@ public class Kadai2_2 {
     public void printResult() throws IOException {
         fileInput();
         String line;
-        while ((line = br.readLine()) != null) {
+        while ((line = in.readLine()) != null) {
             double val = Double.valueOf(line);
             System.out.println(calc_area(val));
         }
