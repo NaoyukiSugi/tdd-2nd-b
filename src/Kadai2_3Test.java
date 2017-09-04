@@ -32,4 +32,19 @@ public class Kadai2_3Test extends TestCase{
 		assertTrue(kadai.checkD2("example.com"));
 		assertFalse(kadai.checkD2(".example.com"));
 	}
+	
+	public void testD3(){
+		assertTrue(kadai.checkD3("example.com"));
+		assertFalse(kadai.checkD3("example.com."));
+	}
+	
+	public void testD4(){
+		assertTrue(kadai.checkD4("example.com"));
+		assertFalse(kadai.checkD4("example..com"));
+	}
+	
+	public void testD5(){
+		assertTrue(kadai.checkD5("e"));
+		assertFalse(kadai.checkD5(""));
+	}
 }

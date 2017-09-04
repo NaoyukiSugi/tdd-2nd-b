@@ -60,6 +60,43 @@ public class Kadai2_3 {
 		}
 	}
 	
+	public boolean checkD3(String domain){
+		String pattern = "[.]";
+		Pattern p = Pattern.compile(pattern);
+		
+		if(p.matcher(String.valueOf(domain.charAt(domain.length()-1))).find()){
+			return false;
+		}else{
+			return true;
+		}
+	}
+	
+	public boolean checkD4(String domain){
+		String pattern = "[.]";
+		Pattern p = Pattern.compile(pattern);
+		int count = 0;
+		
+		for(int i=0; i<domain.length(); i++){
+			if(p.matcher(String.valueOf(domain.charAt(i))).find()){
+				count++;
+			}else{
+				
+			}
+			if(count>=2){
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	public boolean checkD5(String domain){
+		if(domain.length()>0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
 	public static void main(String[] args){
 		Kadai2_3 kadai = new Kadai2_3();
         try{
