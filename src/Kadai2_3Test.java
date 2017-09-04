@@ -69,4 +69,14 @@ public class Kadai2_3Test extends TestCase{
 		assertFalse(kadai.checkLD3("abc."));
 	}
 
+	public void testLD4(){
+		assertTrue(kadai.checkLD4("abc."));
+		assertFalse(kadai.checkLD4("abc.."));
+	}
+
+	public void testLD5(){
+		assertTrue(kadai.checkLD5("a"));
+		assertFalse(kadai.checkLD5(""));
+	}
+
 }

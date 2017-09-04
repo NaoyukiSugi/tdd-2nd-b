@@ -160,6 +160,33 @@ public class Kadai2_3 {
 			return true;
 		}
 	}
+
+	public boolean checkLD4(String local){
+		String pattern = "[.]";
+		Pattern p = Pattern.compile(pattern);
+		int count = 0;
+
+		for(int i=0; i<local.length(); i++){
+			if(p.matcher(String.valueOf(local.charAt(i))).find()){
+				count++;
+			}else{
+
+			}
+			if(count>=2){
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public boolean checkLD5(String local){
+		if(local.length()>0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
 	
 	public static void main(String[] args){
 		Kadai2_3 kadai = new Kadai2_3();
