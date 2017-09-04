@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25244960-2f81-482e-bf14-1e38b72646ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kadai2_3.java" afterPath="$PROJECT_DIR$/src/Kadai2_3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kadai2_3Test.java" afterPath="$PROJECT_DIR$/src/Kadai2_3Test.java" />
     </list>
@@ -22,8 +21,8 @@
             <file leaf-file-name="Kadai2_3.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/Kadai2_3.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="376">
-                    <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+                  <state relative-caret-position="1120">
+                    <caret line="156" column="54" lean-forward="false" selection-start-line="156" selection-start-column="54" selection-end-line="156" selection-end-column="54" />
                     <folding />
                   </state>
                 </provider>
@@ -40,8 +39,8 @@
       <file leaf-file-name="Kadai2_3Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Kadai2_3Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="705">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +71,8 @@
         <option value="$PROJECT_DIR$/src/StackTest.java" />
         <option value="$PROJECT_DIR$/src/Kadai2_2Test.java" />
         <option value="$PROJECT_DIR$/src/Kadai2_2.java" />
-        <option value="$PROJECT_DIR$/src/Kadai2_3Test.java" />
         <option value="$PROJECT_DIR$/src/Kadai2_3.java" />
+        <option value="$PROJECT_DIR$/src/Kadai2_3Test.java" />
       </list>
     </option>
   </component>
@@ -161,28 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Kadai2_3Test.testA1">
-    <configuration default="false" name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="tdd-2nd-b" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Kadai2_3Test.testLD3">
     <configuration default="false" name="Kadai2_2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tdd-2nd-b" />
@@ -204,21 +182,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Kadai2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Kadai2_2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tdd-2nd-b" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Kadai2_3Test.testA1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tdd-2nd-b" />
@@ -227,6 +190,69 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Kadai2_3Test" />
       <option name="METHOD_NAME" value="testA1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Kadai2_3Test.testLD1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="tdd-2nd-b" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Kadai2_3Test" />
+      <option name="METHOD_NAME" value="testLD1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Kadai2_3Test.testLD2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="tdd-2nd-b" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Kadai2_3Test" />
+      <option name="METHOD_NAME" value="testLD2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Kadai2_3Test.testLD3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="tdd-2nd-b" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Kadai2_3Test" />
+      <option name="METHOD_NAME" value="testLD3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -444,18 +470,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StackTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Kadai2_2Test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Kadai2_2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testA1" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Kadai2_2Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testA1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testLD1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testLD2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testLD3" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testA1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Kadai2_2Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Kadai2_2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StackTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testLD3" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testLD2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testLD1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Kadai2_3Test.testA1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Kadai2_2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -474,18 +502,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Kadai2_2Test - 2017.09.04 at 15h 19m 18s.xml">
-      <configuration name="Kadai2_2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Kadai2_2Test - 2017.09.04 at 15h 19m 37s.xml">
-      <configuration name="Kadai2_2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Kadai2_2Test - 2017.09.04 at 15h 20m 22s.xml">
-      <configuration name="Kadai2_2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Kadai2_2Test - 2017.09.04 at 15h 20m 38s.xml">
-      <configuration name="Kadai2_2Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Kadai2_2Test - 2017.09.04 at 15h 32m 09s.xml">
       <configuration name="Kadai2_2Test" configurationId="JUnit" />
     </history-entry>
@@ -504,6 +520,18 @@
     <history-entry file="Kadai2_3Test_testA1 - 2017.09.04 at 18h 55m 42s.xml">
       <configuration name="Kadai2_3Test.testA1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Kadai2_3Test_testLD1 - 2017.09.04 at 19h 00m 03s.xml">
+      <configuration name="Kadai2_3Test.testLD1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kadai2_3Test_testLD2 - 2017.09.04 at 19h 01m 44s.xml">
+      <configuration name="Kadai2_3Test.testLD2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kadai2_3Test_testLD2 - 2017.09.04 at 19h 02m 00s.xml">
+      <configuration name="Kadai2_3Test.testLD2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kadai2_3Test_testLD3 - 2017.09.04 at 19h 02m 03s.xml">
+      <configuration name="Kadai2_3Test.testLD3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="171000" />
@@ -521,7 +549,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25207546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25207546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14943396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -750,16 +778,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kadai2_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+        <state relative-caret-position="1120">
+          <caret line="156" column="54" lean-forward="false" selection-start-line="156" selection-start-column="54" selection-end-line="156" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kadai2_3Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="705">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>

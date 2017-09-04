@@ -116,6 +116,50 @@ public class Kadai2_3 {
 			return false;
 		}
 	}
+
+	public boolean checkLD1(String local){
+		String pattern = "[A-Za-z0-9!#$%&'*+-/=?^_`{|}~.]";
+		Pattern p = Pattern.compile(pattern);
+		boolean flag = true;
+
+		for(int i=0; i<local.length(); i++){
+			if(p.matcher(String.valueOf(local.charAt(i))).find()){
+				//
+			}else{
+				flag = false;
+				//ps.println("ng");
+				//break;
+			}
+
+		}
+		//if(flag){
+		//	return true;
+		//ps.println("ok");
+		//}
+		return flag;
+	}
+
+	public boolean checkLD2(String local){
+		String pattern = "[.]";
+		Pattern p = Pattern.compile(pattern);
+
+		if(p.matcher(String.valueOf(local.charAt(0))).find()){
+			return false;
+		}else{
+			return true;
+		}
+	}
+
+	public boolean checkLD3(String local){
+		String pattern = "[.]";
+		Pattern p = Pattern.compile(pattern);
+
+		if(p.matcher(String.valueOf(local.charAt(local.length()-1))).find()){
+			return false;
+		}else{
+			return true;
+		}
+	}
 	
 	public static void main(String[] args){
 		Kadai2_3 kadai = new Kadai2_3();
