@@ -39,5 +39,13 @@ public class StackTest extends TestCase {
         stack.pop();
         assertEquals(0, stack.size());
     }
+    
+    public void testPushPushPopTop(){
+    	stack.push(1);
+    	stack.push(2);
+    	assertEquals(2, stack.size());
+    	stack.pop();
+    	assertEquals(1,stack.top());
+    }
 
 }

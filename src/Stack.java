@@ -14,6 +14,7 @@ public class Stack {
     }
 
     public int top() {
+    	emptyCheck();
         return value;
     }
 
@@ -22,8 +23,13 @@ public class Stack {
     }
 
     public void pop() {
-        if (isEmpty()) {
-            throw new EmptyStackException();
-        }
+    	emptyCheck();
+    	size--;
+    }
+    
+    public void emptyCheck(){
+    	if(isEmpty()){
+    		throw new EmptyStackException();
+    	}
     }
 }
